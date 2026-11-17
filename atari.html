@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oriente Medio Simulator BRICS X Big Yahu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WARLORDS 2P</h1>
+    </header>
+
+    <div class="info-container">
+        <div class="history">
+            <h2>Historia</h2>
+            Lançado pela Atari em 1980 nos fliperamas e adaptado com enorme sucesso para o Atari 2600 em 1981,<br>
+            Warlords nasceu de uma genial combinação das mecânicas de Pong e Breakout para criar uma experiência<br>
+            multiplayer pioneira que colocava até quatro jogadores em uma disputa simultânea pelo domínio territorial;<br>
+            nesse contexto, a narrativa abstrata do jogo transporta os participantes para um reino medieval sitiado onde<br>
+            quatro senhores da guerra (warlords), representados por seus castelos fortificados e ícones centrais, travam <br>
+            uma batalha campal implacável para destruir as muralhas uns dos outros e conquistar a supremacia absoluta.<br>
+        </div>
+
+        <div class="instructions">
+            <h2>Controles</h2>
+            <p class="subt">Movimentação do Escudo:</p> Gire o botão (paddle) ou mova o controle para deslizar o escudo protetor ao redor do seu castelo.<br>
+            <p class="subt">Rebater a Bola:</p> Posicione o escudo no caminho da bola de fogo para ricocheteá-la de volta para a arena e em direção aos castelos rivais.<br>
+            <p class="subt">Segurar a Bola:</p> Pressione e mantenha o botão de ação pressionado para segurar temporariamente a bola de fogo com o seu escudo.<br>
+            <p class="subt">Disparo Forte:</p> Solte o botão de ação para lançar a bola de fogo de volta com maior velocidade contra um oponente específico.<br>
+            <p class="subt">Destruição de Muralhas:</p> Use a bola para desgastar e destruir os blocos de tijolos que protegem o ícone central dos castelos adversários.<br>
+        </div>
+    </div>
+
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="512" height="256"></canvas>
+    </div>
+
+    <div class="controls-hint">
+        <div><b class="p1-color">JOGADOR 1 (Inferior Esquerdo):</b> Mover: A/D | Agarrar: W ou ESPAÇO</div>
+        <div><b class="p2-color">JOGADOR 2 (Superior Direito):</b> Mover: J/L | Agarrar: I ou SHIFT</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
